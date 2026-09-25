@@ -1,0 +1,21 @@
+﻿fecha_hora,usuario,base,origen,archivo_origen,registros_recibidos,registros_guardados,duplicados_actualizados,total_final
+2026-07-27 18:08:13,SEDECO,vinculaciones,alta vinculación,Seguimiento desde app,1,1,0,1
+2026-07-27 18:09:41,SEDECO,vinculaciones,alta vinculación,Seguimiento desde app,2,2,0,2
+2026-08-19 15:51:43,SEDECO,personas,manual,Captura manual,1,1,0,690
+2026-08-19 15:53:56,SEDECO,personas,edición,Edición desde app,690,690,0,690
+2026-08-19 15:57:55,SEDECO,personas,manual,Captura manual,1,1,0,691
+2026-08-19 16:03:35,SEDECO,personas,manual,Captura manual,1,1,0,692
+2026-08-19 16:07:18,SEDECO,personas,manual,Captura manual,1,1,0,693
+2026-08-19 16:52:08,SEDECO,personas,manual,Captura manual,1,1,0,694
+2026-08-19 16:57:05,SEDECO,vinculaciones,alta seguimiento,Seguimiento desde app,3,3,0,3
+2026-08-19 17:00:07,SEDECO,personas,manual,Captura manual,1,1,0,695
+2026-08-19 17:04:30,SEDECO,personas,manual,Captura manual,1,1,0,696
+2026-08-19 17:07:48,SEDECO,personas,eliminación,Edición desde app,695,695,0,695
+2026-08-19 17:12:12,SEDECO,vinculaciones,alta seguimiento,Seguimiento desde app,4,4,0,4
+2026-08-19 17:16:15,SEDECO,vinculaciones,edición seguimiento,Seguimiento desde app,4,4,0,4
+2026-08-19 17:22:32,SEDECO,personas,manual,Captura manual,1,1,0,696
+2026-08-19 17:23:57,SEDECO,personas,manual,Captura manual,1,1,0,697
+2026-08-19 17:26:48,SEDECO,personas,eliminación,Edición desde app,696,696,0,696
+2026-08-19 17:30:20,SEDECO,personas,manual,Captura manual,1,1,0,697
+2026-09-23 09:46:14,SEDECO,personas,manual,Captura manual,1,1,0,698
+2026-09-23 09:49:03,SEDECO,personas,eliminación,Eliminación desde app,1,1,0,697
