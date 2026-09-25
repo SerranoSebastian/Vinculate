@@ -1,0 +1,16 @@
+COLOCA EN ESTA CARPETA LAS 12 IMÁGENES CON ESTOS NOMBRES EXACTOS:
+
+01_portada.png
+02_descripcion.png
+03_regiones.png
+04_norte.png
+05_oriente.png
+06_poniente.png
+07_centro_norte_1.png
+08_centro_norte_2.png
+09_centro_sur_1.png
+10_centro_sur_2.png
+11_sur_1.png
+12_sur_2.png
+
+No necesitas modificar código. Al iniciar Streamlit, el módulo RIDET las detectará automáticamente.
