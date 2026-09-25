@@ -1,0 +1,53 @@
+MODELO PERSONA MAESTRO - SEDECO
+Actualización: 19/08/2026
+
+PRINCIPIO
+- Una persona real se identifica con id_persona_maestro (PER-xxxx).
+- Cada fila de la base histórica es una vinculación y conserva su propio id_persona.
+- Una persona puede tener 1, 2, 3, 4 o más vinculaciones.
+- Los nombres repetidos NO se eliminan automáticamente.
+- Solo un id_persona idéntico se considera el mismo registro histórico.
+
+IDENTIFICADORES
+- id_persona_maestro: identidad permanente de la persona.
+- id_persona: ID de vinculación histórica (I/A/P/S + consecutivos).
+- id_vinculacion: ID de seguimiento operativo con empresa/vacante.
+- id_registro_origen: opcional; enlaza un seguimiento con una vinculación histórica específica.
+
+TIPOS HISTÓRICOS
+- I = Inserción Laboral
+- A = Atención
+- P = Prácticas Profesionales
+- S = Servicio Social
+
+CONSIDERACIÓN DE DATOS FALTANTES
+- Celda vacía = dato no disponible/no capturado.
+- "Indefinido" = valor histórico explícito.
+- La aplicación no sustituye automáticamente uno por el otro.
+
+CONTEOS
+- Personas únicas = COUNT DISTINCT id_persona_maestro.
+- Vinculaciones = número de filas históricas / id_persona.
+- Recurrencia = personas con más de una vinculación.
+
+BASE INTEGRADA
+- 689 vinculaciones históricas.
+- 585 personas únicas.
+- 80 personas con 2 o más vinculaciones.
+- Máximo observado: 4 vinculaciones para una persona.
+
+
+POLÍTICA DE ESTATUS 2026-08-19
+- Todo registro histórico de la base de personas representa una vinculación y se marca como Vinculado.
+- La ausencia de empresa, vacante o fecha NO invalida la vinculación.
+- Los datos faltantes se muestran como Sin dato hasta que sean completados mediante edición/seguimiento.
+- Una persona maestra puede tener N vinculaciones y cada una conserva su ID histórico.
+
+ACTUALIZACIÓN DE CATÁLOGO TERRITORIAL (19-08-2026)
+- La captura y edición de ubicación ya no es texto libre.
+- Tlaxcala utiliza un catálogo precargado con sus 60 municipios.
+- Para personas fuera de Tlaxcala se ofrecen los otros 31 estados de México.
+- Los filtros utilizan el mismo catálogo para evitar variantes.
+- El gráfico municipal muestra siempre los 60 municipios de Tlaxcala, incluso si alguno tiene 0 personas con los filtros actuales.
+- El gráfico de carreras muestra en el tooltip los municipios/estados de procedencia y su conteo.
+- Registros históricos con "Otro Estado" se conservan porque no existe información suficiente para asignar una entidad específica.

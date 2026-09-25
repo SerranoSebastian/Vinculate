@@ -1,0 +1,33 @@
+NORMALIZACIÓN DE VACANTES — 19/08/2026
+
+Objetivo
+- Una fila = un puesto u oportunidad concreta.
+- Conservar el texto histórico en "Puesto Original".
+- Usar "Tipo de Vacante" como nombre normalizado.
+- Separar "Tipo de Oportunidad" (Empleo, Prácticas Profesionales, Servicio Social).
+- Separar "Área de Oportunidad" para prácticas/servicio social cuando exista.
+- Agregar "Categoría de Puesto" para análisis y filtros.
+- Mantener trazabilidad con "ID Vacante" e "ID Registro Origen".
+
+Resultado de migración
+- Registros originales: 135
+- Registros normalizados: 167
+- Puestos normalizados distintos: 81
+- Empleos: 129
+- Prácticas Profesionales: 37
+- Servicio Social: 1
+
+Reglas aplicadas
+1. Espacios, mayúsculas/minúsculas y variantes ortográficas se homologan.
+2. Singular/plural del mismo puesto se unifican.
+3. Variantes semánticas evidentes se homologan (ej. Técnico en/de Mantenimiento).
+4. Puestos distintos no se mezclan (ej. Mecánico Industrial vs. Mecánico Textil).
+5. Publicaciones con varios puestos se dividen en una fila por puesto.
+6. Publicaciones de prácticas con varias áreas se dividen en una fila por área.
+7. El texto original nunca se pierde: queda en "Puesto Original".
+8. Un mismo link puede pertenecer a varios puestos y NO se considera duplicado por sí solo.
+9. Nuevas capturas usan el catálogo normalizado y permiten agregar un puesto nuevo cuando sea necesario.
+10. Descripción, Requisitos y Beneficios quedan como campos separados; cuando el texto era claramente una escolaridad/área de formación y no una función, se reubicó en Requisitos.
+
+Respaldo previo
+backups/backup_vacantes_pre_normalizacion_20260819.csv

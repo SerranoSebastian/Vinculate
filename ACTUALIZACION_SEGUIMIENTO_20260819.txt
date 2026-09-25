@@ -1,0 +1,18 @@
+ACTUALIZACIÓN — SEGUIMIENTO DE VINCULACIÓN
+Fecha: 19/08/2026
+
+Cambios principales:
+- Empresa seleccionable desde el catálogo central de empresas normalizadas.
+- Sector de empresa cargado automáticamente.
+- Puesto seleccionable desde el catálogo central de puestos normalizados.
+- Área de oportunidad seleccionable desde el mismo catálogo del módulo de vacantes.
+- Se mantiene la opción de elegir una vacante activa existente.
+- Estatus operativo limitado a: Vinculado / No vinculado.
+- Se eliminó Fecha de envío del esquema operativo y de las pantallas.
+- Se conserva únicamente Fecha de vinculación.
+- Edición usa exactamente los mismos catálogos que el alta.
+- Se añadió un apartado independiente de Estadísticas dentro de Seguimiento.
+- Se ampliaron estadísticas: estatus por persona, recurrencia histórica, evolución anual, empresas y puestos.
+- Historial por persona muestra empresa, sector, puesto, área, estatus y fecha de vinculación.
+- Botones de acción fuerzan texto e iconos blancos para mejorar contraste.
+- Los datos previos de seguimiento se migraron al esquema nuevo sin perder registros.

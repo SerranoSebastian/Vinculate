@@ -1,0 +1,36 @@
+VINCÚLATE SEDECO — ACTIVAR BASE CENTRAL SUPABASE
+================================================
+
+Esta versión ya está modificada para que PERSONAS, VACANTES, SEGUIMIENTOS E HISTORIAL
+trabajen contra una sola base Supabase. Los CSV quedan únicamente como espejo/respaldo.
+
+PASOS (solo una vez para crear la nube)
+1. Crea un proyecto en https://supabase.com
+2. Abre SQL Editor > New query.
+3. Abre el archivo: supabase/01_INSTALAR_TODO.sql
+4. Copia TODO su contenido al SQL Editor y pulsa Run.
+   El mismo script crea las tablas y carga la base actual:
+   - 697 vinculaciones históricas de personas
+   - 167 vacantes
+   - 4 seguimientos
+   - historial de movimientos
+   - catálogos de instituciones, carreras, municipios y empresas
+5. En Supabase abre Project Settings / API y copia:
+   - Project URL
+   - anon/public key (publishable/anon key)
+6. En CADA computadora ejecuta CONFIGURAR_NUBE.bat y pega esos dos valores.
+7. Instala/actualiza dependencias con requirements.txt y abre el programa.
+8. En Administración debe aparecer: "Supabase ☁️" y "Conectado a Supabase".
+
+DESDE ESE MOMENTO
+- Alta en PC A -> se guarda en Supabase.
+- PC B pulsa "Actualizar datos" o cambia de pantalla -> consulta el mismo registro.
+- Ediciones y eliminaciones afectan solo el registro seleccionado.
+- Si Supabase está configurado pero falla, la app NO guarda cambios en CSV como si
+  fueran definitivos; esto evita que las computadoras se desincronicen.
+- Antes de una modificación se sigue creando respaldo CSV local.
+
+SEGURIDAD
+La versión rápida usa la anon/public key y políticas RLS para permitir la operación
+interna del sistema. No publiques esa configuración ni el ZIP configurado en Internet.
+Para una fase posterior se puede añadir autenticación por usuario/rol sin cambiar los datos.

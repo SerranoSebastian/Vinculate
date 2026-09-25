@@ -1,0 +1,26 @@
+Sistema Integral Vincúlate SEDECO - Optimización estable
+Fecha: 19/08/2026
+
+Cambios aplicados sin sustituir las bases de datos recibidas:
+1. Carga de CSV cacheada por fecha real de modificación del archivo.
+   - Si el archivo no cambia, no se vuelve a leer del disco.
+   - Al guardar, el cambio de mtime invalida únicamente ese archivo.
+   - No se usa st.cache_data.clear() global.
+2. Navegación interna persistente y de carga bajo demanda.
+   - Dashboard Personas, Ingesta Personas, Ingesta Vacantes, Seguimiento y RIDET.
+   - Solo se ejecuta el apartado visible.
+   - La selección se conserva mediante st.session_state/key de los widgets.
+3. Seguimiento optimizado para captura.
+   - Persona y modo de selección definen el formulario.
+   - Empresa, puesto, área, estatus, fecha, responsable y observaciones están dentro de st.form.
+   - Escribir o elegir estos datos no recalcula la página; el procesamiento ocurre al Guardar.
+4. Protección contra duplicados por edición.
+   - Editar personas/vacantes debe conservar el número de filas y el conjunto de IDs.
+   - Si una edición intenta agregar/reemplazar un ID, se cancela.
+   - Eliminar es una operación explícita separada.
+5. Se mantienen los estilos existentes, incluidos botones de acción con texto blanco.
+
+Datos preservados de la versión recibida:
+- Personas/vinculaciones históricas: 697
+- Vacantes: 167
+- Seguimientos: 4

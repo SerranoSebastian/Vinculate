@@ -1,0 +1,22 @@
+VINCULATE SEDECO - ACTUALIZACION 14/09/2026
+
+ANTES DE USAR EL ALTA DE USUARIOS:
+1. Abrir Supabase del proyecto de Vinculate.
+2. Ir a SQL Editor.
+3. Abrir el archivo supabase/04_USUARIOS_PERMISOS_ESTABLE.sql.
+4. Copiar todo su contenido, ejecutarlo y comprobar que termine sin error.
+5. Reiniciar Vinculate e iniciar sesion como administrador.
+
+CAMBIOS:
+- Alta de colaboradores con validacion de correo y contrasena.
+- Repara usuarios que quedaron creados en Authentication sin perfil completo.
+- Perfil, contrasena y permisos iniciales se finalizan en una operacion de base de datos.
+- Los permisos se guardan como matriz completa y se verifican despues de persistir.
+- Si Ver esta desactivado, Crear/Editar/Eliminar/Exportar se desactivan para ese modulo.
+- Consultas de autorizacion, dispositivo y datos usan cache corta por sesion para reducir bloqueos.
+- Administracion deja de descargar bases completas solo para mostrar conteos.
+
+IMPORTANTE:
+- No se guardan contrasenas en CSV ni archivos locales.
+- No se incluye service_role en el programa de escritorio.
+- El script SQL no elimina personas, vacantes ni vinculaciones.

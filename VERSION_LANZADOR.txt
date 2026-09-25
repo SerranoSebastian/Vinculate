@@ -1,0 +1,6 @@
+Sistema Integral Vinculate SEDECO
+Lanzador: 2026-09-14-v4
+Esta version reconstruye automaticamente el entorno tecnico al detectar una version anterior.
+Python permitido para el entorno local: 3.10 a 3.13. Python 3.14 se omite.
+
+Mejoras v4: alta/reparacion de usuarios, contrasenas, permisos verificados y optimizacion de consultas.

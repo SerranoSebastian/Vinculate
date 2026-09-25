@@ -1,0 +1,52 @@
+REVISIÓN SISTEMA INTEGRAL VINCÚLATE SEDECO — 01/09/2026
+
+CAMBIOS REALIZADOS
+1. Terminología visible normalizada a "vinculación" / "vinculaciones".
+   - Se eliminaron usos visibles de "vínculo", "vínculos" y abreviaturas "vinc." cuando se referían a vinculaciones.
+   - Se conservan "Vinculado" y "No vinculado" exclusivamente como valores de estatus.
+
+2. Trazabilidad de gráficas y estadísticas.
+   - Se agregó a las visualizaciones y grupos de indicadores una sección desplegable con:
+     * Fuente de los datos.
+     * Qué significa el indicador o gráfica.
+     * Cómo debe interpretarse.
+
+3. Persistencia reforzada.
+   - Guardado CSV atómico: primero se escribe a un temporal y después se reemplaza el archivo final.
+   - Verificación de filas y columnas antes de confirmar el reemplazo.
+   - fsync del temporal antes del reemplazo.
+   - Respaldos con microsegundos en el nombre para evitar colisiones si ocurren varias operaciones en un mismo segundo.
+
+4. Pruebas realizadas sobre copia aislada.
+   - Alta de persona: OK.
+   - Edición de persona conservando ID: OK.
+   - Alta de vacante e ID automático: OK.
+   - Alta de seguimiento de vinculación: OK.
+   - Eliminación explícita de vacante: OK.
+   - Historial de operaciones: OK.
+   - Generación de respaldos únicos: OK.
+
+5. Revisión de datos actuales.
+   - Personas: 697 registros; sin IDs vacíos ni duplicados.
+   - Vacantes: 167 registros; sin IDs vacíos ni duplicados.
+   - Seguimientos: 4 registros; sin IDs vacíos ni duplicados y sin referencias huérfanas a personas.
+   - Validación estructural de personas y vacantes: sin errores detectados.
+
+NOTA DE CONTROL
+Se observaron variaciones ortográficas históricas de nombres en algunos IDs maestros, generalmente acompañadas por teléfono/correo coincidente. No se modificaron automáticamente para evitar alterar la identidad de registros sin revisión humana.
+
+VALIDACIÓN TÉCNICA
+Todos los archivos Python del proyecto compilan correctamente mediante py_compile.
+Las pruebas de persistencia se hicieron en archivos temporales, sin alterar las bases reales incluidas en este paquete.
+
+ACTUALIZACION 2026-09-07 - PERFILES Y PERMISOS
+- Inicio de sesion conectado a Supabase Auth.
+- Perfil y permisos se consultan en cada recarga.
+- Menus construidos segun app_permissions.
+- CRUD validado tambien en funciones de guardado, edicion y eliminacion.
+- Administracion de colaboradores, permisos, equipos, auditoria y prioridades.
+- Cambio de contrasena propia y cambio delegado via RPC SQL.
+- Equipos revalidados en cada recarga; un bloqueo remoto se aplica sin reinstalar.
+- Prioridades generan avisos tipo toast en esquina hasta ser atendidas.
+- Configurado para el proyecto Supabase dzkykmuiiuarjmylavik.
+- Ejecutar supabase/03_PERFILES_PERMISOS_FINAL.sql para habilitar delegacion completa.

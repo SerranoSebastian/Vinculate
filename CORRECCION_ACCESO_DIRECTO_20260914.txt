@@ -1,0 +1,23 @@
+CORRECCIÓN DE INICIO - 14/09/2026
+
+Problema corregido:
+- Si el entorno virtual se reconstruía pero quedaba un requirements.sha256 anterior,
+  el lanzador omitía la instalación de dependencias y Streamlit no existía en el venv.
+
+Cambios:
+- El sello de dependencias se elimina al reconstruir el entorno.
+- Antes de iniciar, se comprueba que Streamlit y las demás dependencias puedan importarse.
+- Si falta alguna dependencia, se reinstala requirements.txt automáticamente.
+- Se agregó REPARAR_SEDECO.bat para una reparación manual completa.
+- Se configuró la consola en UTF-8 para reducir texto con caracteres dañados.
+- El tiempo de espera de arranque aumentó de 30 a 60 segundos.
+
+Uso normal:
+1. Extraer completamente la carpeta.
+2. Ejecutar CREAR_ACCESO_DIRECTO.bat una vez.
+3. Abrir el acceso directo.
+
+Si una computadora ya tenía una instalación dañada:
+1. Cerrar SEDECO.
+2. Ejecutar REPARAR_SEDECO.bat una vez.
+3. Esperar a que reinstale las dependencias y abra el navegador.

@@ -1,0 +1,44 @@
+SISTEMA INTEGRAL VINCÚLATE SEDECO - VERSION BETA LOCAL
+==================================
+
+INICIO RAPIDO
+-------------
+1. Extrae completamente el archivo ZIP. No lo ejecutes desde la vista del ZIP.
+2. Abre la carpeta SEDECO_vin.
+3. Haz doble clic en INICIAR_SEDECO.bat.
+4. La primera vez se preparan los componentes y puede tardar varios minutos.
+5. Cuando termine, el Sistema Integral Vincúlate SEDECO se abrira en el navegador.
+
+REQUISITOS PARA LA PRIMERA EJECUCION
+------------------------------------
+- Windows 10 u 11.
+- Conexion a internet durante la preparacion inicial.
+- Python 3.10 o posterior, version normal de 64 bits.
+
+Si Python no esta instalado, el iniciador abrira su pagina oficial.
+Al instalarlo, activa la opcion "Add Python to PATH" y despues vuelve a
+abrir INICIAR_SEDECO.bat.
+
+El iniciador valida las instalaciones disponibles y omite automaticamente
+rutas antiguas, incompletas o variantes "free-threaded" que no funcionen.
+
+USO DIARIO
+----------
+- Para abrir: INICIAR_SEDECO.bat
+- Para cerrar completamente: CERRAR_SEDECO.bat
+- Para crear un icono en el escritorio: CREAR_ACCESO_DIRECTO.bat
+
+CONSERVACION DE INFORMACION
+---------------------------
+Los registros permanecen dentro de la carpeta data del programa.
+El iniciador crea como proteccion una copia automatica diaria de los CSV en:
+
+backups\automaticos\AAAA-MM-DD
+
+No muevas archivos individuales fuera de SEDECO_vin. Si deseas cambiar la
+ubicacion del programa, mueve la carpeta SEDECO_vin completa.
+
+IMPORTANTE
+----------
+Esta es una version local beta. No necesita publicar datos en internet:
+Streamlit se ejecuta en 127.0.0.1 y solo abre en la computadora local.

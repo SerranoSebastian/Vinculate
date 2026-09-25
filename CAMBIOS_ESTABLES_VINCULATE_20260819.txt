@@ -1,0 +1,10 @@
+SISTEMA INTEGRAL VINCÚLATE SEDECO - AJUSTE ESTABLE
+
+Base utilizada: versión previa estable SEGUIMIENTO_CATALOGOS_ESTADISTICAS.
+
+Cambios aplicados sin modificar la lógica de datos:
+- Nuevo nombre visible: Sistema Integral Vincúlate SEDECO.
+- Texto e iconos de botones de acción forzados a blanco.
+- Animaciones CSS ligeras en títulos, métricas, pestañas, portada y navegación.
+- Se conservaron íntegros los catálogos académicos, vacantes, seguimiento y estadísticas de la versión estable.
+- NO se aplicaron cambios de caché, fastReruns ni refactorizaciones de carga que pudieran alterar dependencias/imports.

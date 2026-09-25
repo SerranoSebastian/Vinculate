@@ -1,0 +1,22 @@
+ACTUALIZACIÓN 2026-09-18
+
+1. Vinculaciones
+- Se agrega el estado Colocado a un seguimiento ya existente.
+- Se agrega fecha_colocacion sin borrar fecha_vinculacion.
+- Una persona con al menos una vinculación marcada Colocado aparece como Colocada.
+- Se agregan KPIs y gráficas de colocaciones por sexo, municipio y empresa.
+
+2. Usuarios y permisos
+- Alta con correo normalizado y contraseña temporal validada.
+- Edición sincronizada de correo/nombre/rol/estado entre Authentication y app_profiles.
+- Cambio administrativo de contraseña con confirmación.
+- Estado disabled bloquea equipos de la cuenta.
+- Baja definitiva con confirmación; protege la propia sesión y al último administrador activo.
+- Los permisos se conservan por usuario y se validan desde Supabase.
+
+3. Supabase
+Si ya tienes instalado el esquema anterior, ejecuta en SQL Editor:
+  supabase/04_USUARIOS_PERMISOS_ESTABLE.sql
+  supabase/05_COLOCACIONES_Y_CUENTAS_20260918.sql
+
+El archivo 05 no elimina personas, vacantes ni vinculaciones existentes.

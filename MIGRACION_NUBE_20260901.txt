@@ -1,0 +1,26 @@
+MIGRACIÓN A NUBE — VINCÚLATE SEDECO — 2026-09-01
+
+CAMBIOS REALIZADOS
+- Nueva capa utils/cloud_db.py para Supabase/PostgreSQL.
+- Personas, vacantes, vinculaciones/seguimientos e historial preparados para lectura/escritura central.
+- Los CSV permanecen como espejo y respaldo local.
+- Las altas vuelven a consultar la nube antes de fusionar datos.
+- Las ediciones actualizan únicamente el registro seleccionado.
+- Las eliminaciones eliminan únicamente el ID seleccionado.
+- Se agregó estado de conexión a Supabase en barra lateral y Administración.
+- Se agregó botón "Actualizar datos".
+- Se agregó dependencia supabase a requirements.txt.
+- Se agregó CONFIGURAR_NUBE.bat para configurar una PC sin editar archivos manualmente.
+- supabase/01_INSTALAR_TODO.sql crea y carga automáticamente:
+  * 697 vinculaciones históricas de personas
+  * 167 vacantes
+  * 4 seguimientos
+  * 18 movimientos históricos iniciales
+  * catálogos de instituciones, carreras, municipios de Tlaxcala y empresas
+- SQL con RLS y permisos para la aplicación mediante anon/public key.
+
+IMPORTANTE
+La aplicación no puede conectarse a una nube inexistente. Para activar el modo central solo falta:
+1) crear el proyecto Supabase;
+2) ejecutar supabase/01_INSTALAR_TODO.sql una vez;
+3) ejecutar CONFIGURAR_NUBE.bat en cada computadora con la misma URL y anon/public key.

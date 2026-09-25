@@ -1,0 +1,18 @@
+VINCULATE SEDECO - SUPABASE NUEVO
+Fecha: 2026-09-21
+
+Esta copia está configurada para el proyecto Supabase:
+https://bekbeixgaacnnthtrdqf.supabase.co
+
+La aplicación usa la Publishable key desde .streamlit/secrets.toml.
+No contiene service_role ni secret key.
+
+Administrador inicial configurado en la base:
+sedecovinculate@gmail.com
+
+El SQL maestro usado para crear la base está incluido en:
+supabase/00_SQL_MAESTRO_NUEVO_SUPABASE_20260921.sql
+
+IMPORTANTE:
+- No volver a ejecutar el SQL maestro sobre una base ya instalada salvo que se revise previamente.
+- Las altas posteriores de colaboradores deben probarse desde Administración de la aplicación.

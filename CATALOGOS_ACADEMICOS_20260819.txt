@@ -1,0 +1,14 @@
+CATÁLOGOS ACADÉMICOS CENTRALIZADOS — 19/08/2026
+
+Se sustituyó la captura libre en Registro de Personas/Vinculaciones para evitar nuevas variantes.
+
+- Escolaridad: 8 niveles cerrados.
+- Grupo prioritario: Jóvenes, Adultos, Adultos Mayores.
+- Institución: catálogo centralizado que conserva primero las formas normalizadas existentes y añade instituciones de Tlaxcala y nacionales.
+- Carrera: catálogo global independiente de la universidad. Una carrera aparece una sola vez aunque la impartan varias instituciones.
+- Área de carrera: catálogo centralizado ampliado.
+- Edición de personas utiliza los mismos catálogos.
+- Guardado manual muestra confirmación persistente después de recargar la pantalla.
+
+Regla de deduplicación de catálogos:
+Se comparan valores ignorando mayúsculas/minúsculas, acentos, puntuación y espacios repetidos. La forma ya existente en la base tiene prioridad sobre una forma nueva equivalente.

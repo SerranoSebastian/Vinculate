@@ -1,0 +1,118 @@
+﻿fila_csv_1based,id_persona,id_persona_maestro,nombre,campo_modificado,valor_anterior,valor_nuevo,criterio
+3,P-00001-00002,PER-0002,ALEJANDRA LOPEZ MERINO,carrera,indefinido,Negocios Internacionales,"Misma persona: única carrera conocida, sin conflicto institucional"
+42,P-00016-00041,PER-0041,ARLED SALOME GARCIA,carrera,indefinido,Ingeniería Industrial,"Misma persona: única carrera conocida, sin conflicto institucional"
+42,P-00016-00041,PER-0041,ARLED SALOME GARCIA,Institución,Indefinido,UPTx,Misma persona: única institución conocida y es de Tlaxcala
+44,P-00017-00043,PER-0043,FELIPE DE JESUS CARMONA TEXIS,Institución,Indefinido,UPTx,Misma persona: única institución conocida y es de Tlaxcala
+45,P-00018-00044,PER-0044,AIMARA BELEN SALAZAR CORONA,carrera,indefinido,Ingeniería Industrial,"Misma persona: única carrera conocida, sin conflicto institucional"
+45,P-00018-00044,PER-0044,AIMARA BELEN SALAZAR CORONA,Institución,Indefinido,Instituto Tecnológico de Apizaco,Misma persona: única institución conocida y es de Tlaxcala
+46,P-00019-00045,PER-0045,HECTOR FERNANDO CARMONA LARA,carrera,indefinido,Ingeniería Industrial,"Misma persona: única carrera conocida, sin conflicto institucional"
+46,P-00019-00045,PER-0045,HECTOR FERNANDO CARMONA LARA,Institución,Indefinido,UPTx,Misma persona: única institución conocida y es de Tlaxcala
+47,P-00020-00046,PER-0046,FERNANDO URIEL HERNANDEZ LOMAS,carrera,indefinido,Ingeniería Industrial,"Misma persona: única carrera conocida, sin conflicto institucional"
+47,P-00020-00046,PER-0046,FERNANDO URIEL HERNANDEZ LOMAS,Institución,Indefinido,UPTx,Misma persona: única institución conocida y es de Tlaxcala
+48,P-00021-00047,PER-0047,ALBA BRISA MUÑOZ XOCHITIOTZI,carrera,indefinido,Ingeniería Industrial,"Misma persona: única carrera conocida, sin conflicto institucional"
+48,P-00021-00047,PER-0047,ALBA BRISA MUÑOZ XOCHITIOTZI,Institución,Indefinido,UPTx,Misma persona: única institución conocida y es de Tlaxcala
+49,P-00022-00048,PER-0048,LUIS ALBERTO BAUTISTA ROJO,carrera,indefinido,Ingeniería Industrial,"Misma persona: única carrera conocida, sin conflicto institucional"
+49,P-00022-00048,PER-0048,LUIS ALBERTO BAUTISTA ROJO,Institución,Indefinido,UPTx,Misma persona: única institución conocida y es de Tlaxcala
+50,P-00023-00049,PER-0049,CINTHIA CUATECONTZI CONDE,carrera,indefinido,Ingeniería Química,"Misma persona: única carrera conocida, sin conflicto institucional"
+50,P-00023-00049,PER-0049,CINTHIA CUATECONTZI CONDE,Institución,Indefinido,UPTx,Misma persona: única institución conocida y es de Tlaxcala
+51,P-00024-00050,PER-0050,CONCEPCION VAZQUEZ CUAHUTLE,carrera,indefinido,Ingeniería Química,"Misma persona: única carrera conocida, sin conflicto institucional"
+52,P-00025-00051,PER-0051,AREMI LOPEZ JUAREZ,carrera,indefinido,Ingeniería en Biotecnología,"Misma persona: única carrera conocida, sin conflicto institucional"
+52,P-00025-00051,PER-0051,AREMI LOPEZ JUAREZ,Institución,Indefinido,UATx,Misma persona: única institución conocida y es de Tlaxcala
+54,I-00015-00053,PER-0053,DANIELA ADRIANA CORTES CONTRERAS,carrera,indefinido,Ingeniería Industrial,"Misma persona: única carrera conocida, sin conflicto institucional"
+54,I-00015-00053,PER-0053,DANIELA ADRIANA CORTES CONTRERAS,Institución,Indefinido,UPTREP,Misma persona: única institución conocida y es de Tlaxcala
+55,P-00026-00054,PER-0054,KARLA DIAZ GABI,carrera,indefinido,Administración,"Misma persona: única carrera conocida, sin conflicto institucional"
+55,P-00026-00054,PER-0054,KARLA DIAZ GABI,Institución,Indefinido,UATx,Misma persona: única institución conocida y es de Tlaxcala
+56,P-00027-00055,PER-0055,MARIA TERESITA CONDE CONTRERAS,carrera,indefinido,Administración,"Misma persona: única carrera conocida, sin conflicto institucional"
+56,P-00027-00055,PER-0055,MARIA TERESITA CONDE CONTRERAS,Institución,Indefinido,UATx,Misma persona: única institución conocida y es de Tlaxcala
+89,A-00027-00088,PER-0088,RAUL AHUATZI BELLO,carrera,indefinido,Ingeniería Industrial,"Misma persona: única carrera conocida, sin conflicto institucional"
+90,A-00028-00089,PER-0089,RAFAEL SANCHEZ TERON,carrera,indefinido,Psicología,"Misma persona: única carrera conocida, sin conflicto institucional"
+92,A-00030-00091,PER-0091,MIRIAM JIMENEZ HERNANDEZ,carrera,indefinido,Ingeniería en Tecnologías de la Información y Comunicación,"Misma persona: única carrera conocida, sin conflicto institucional"
+101,A-00038-00100,PER-0100,JULIA ROLDAN FLORES,Institución,Indefinido,UATx,Misma persona: única institución conocida y es de Tlaxcala
+184,I-00042-00183,PER-0179,IRIS ROMERO PEREZ,Institución,,UATx,Oferta oficial: correspondencia exacta e inequívoca dentro de Tlaxcala
+185,I-00043-00184,PER-0180,GUILLERMO GIL MENDEZ MONTIEL,Institución,,UATx,Oferta oficial: correspondencia exacta e inequívoca dentro de Tlaxcala
+186,I-00044-00185,PER-0181,MARIA LUISA SILVA MARIN,Institución,,UATx,Oferta oficial: correspondencia exacta e inequívoca dentro de Tlaxcala
+188,I-00046-00187,PER-0183,YESSENIA SASTRE PEREZ,Institución,,UATx,Oferta oficial: correspondencia exacta e inequívoca dentro de Tlaxcala
+189,I-00047-00188,PER-0184,ANTONIO RUIZ CRUZ,Institución,,UATx,Oferta oficial: correspondencia exacta e inequívoca dentro de Tlaxcala
+190,I-00048-00189,PER-0185,ANA LUCRECIA MAZA VILLA,Institución,,UATx,Oferta oficial: correspondencia exacta e inequívoca dentro de Tlaxcala
+191,I-00049-00190,PER-0186,FROYLAN JUAREZ PEREZ,Institución,,UATx,Oferta oficial: correspondencia exacta e inequívoca dentro de Tlaxcala
+194,I-00052-00193,PER-0189,ANGELICA ANAHI HERNANDEZ QUIROZ,Institución,,UATx,Oferta oficial: correspondencia exacta e inequívoca dentro de Tlaxcala
+198,I-00056-00197,PER-0193,LUIS GUSTAVO HERNANDEZ VALDEZ,Institución,,UATx,Oferta oficial: correspondencia exacta e inequívoca dentro de Tlaxcala
+199,I-00057-00198,PER-0194,ESTEFANIA CORONA TEOLINO,Institución,,UATx,Oferta oficial: correspondencia exacta e inequívoca dentro de Tlaxcala
+200,I-00058-00199,PER-0195,NAEILA ANAYA TORRES,Institución,,UATx,Oferta oficial: correspondencia exacta e inequívoca dentro de Tlaxcala
+202,I-00060-00201,PER-0197,FRANCISCO JAVIER JUAREZ GARCIA,Institución,,UATx,Oferta oficial: correspondencia exacta e inequívoca dentro de Tlaxcala
+203,I-00061-00202,PER-0198,GLORIA ANDREA JUAREZ VILLALBA,Institución,,UATx,Oferta oficial: correspondencia exacta e inequívoca dentro de Tlaxcala
+204,I-00062-00203,PER-0199,ARIADNA TLILAYATZI XOLOCOTZI,Institución,,UATx,Oferta oficial: correspondencia exacta e inequívoca dentro de Tlaxcala
+205,I-00063-00204,PER-0200,ITZMITL MONTSERRAT LOPEZ CARREON,Institución,,UATx,Oferta oficial: correspondencia exacta e inequívoca dentro de Tlaxcala
+206,I-00064-00205,PER-0201,DIANA LAURA DE JESUS MUÑOZ,Institución,,UATx,Oferta oficial: correspondencia exacta e inequívoca dentro de Tlaxcala
+207,I-00065-00206,PER-0202,SHEYLA MIREYA ROMERO VELOZ,Institución,,UATx,Oferta oficial: correspondencia exacta e inequívoca dentro de Tlaxcala
+208,I-00066-00207,PER-0203,ARIANA JIMENEZ MEJIA,Institución,,UATx,Oferta oficial: correspondencia exacta e inequívoca dentro de Tlaxcala
+209,I-00067-00208,PER-0204,MARCOS JONATHAN SANCHEZ DAVILA,Institución,,UATx,Oferta oficial: correspondencia exacta e inequívoca dentro de Tlaxcala
+210,I-00068-00209,PER-0205,ANIBAL GALLO GUTIERREZ,Institución,,UATx,Oferta oficial: correspondencia exacta e inequívoca dentro de Tlaxcala
+211,I-00069-00210,PER-0206,MANOLO MENDOZA MENDIETA,Institución,,UATx,Oferta oficial: correspondencia exacta e inequívoca dentro de Tlaxcala
+212,I-00070-00211,PER-0207,CESAR LUNA GONZALEZ,Institución,,UATx,Oferta oficial: correspondencia exacta e inequívoca dentro de Tlaxcala
+213,I-00071-00212,PER-0208,ITZEL ANTONIO MENDEZ,Institución,,UATx,Oferta oficial: correspondencia exacta e inequívoca dentro de Tlaxcala
+215,I-00073-00214,PER-0210,HEIDI EVELYN BENITEZ PEREZ,Institución,,UPTx,Oferta oficial: correspondencia exacta e inequívoca dentro de Tlaxcala
+308,I-00165-00307,PER-0303,ITZEL BUENAVISTA BUSTAMANTE,Institución,,UPTx,Oferta oficial: correspondencia exacta e inequívoca dentro de Tlaxcala
+311,I-00168-00310,PER-0306,JAQUELINE HERNANDEZ FERNANDEZ,carrera,Sin Información,Administración,"Misma persona: única carrera conocida, sin conflicto institucional"
+312,I-00169-00311,PER-0307,ALAN JAIR DE JESUS VAZQUEZ,Institución,,UPTx,Oferta oficial: correspondencia exacta e inequívoca dentro de Tlaxcala
+314,I-00171-00313,PER-0309,TANIA ABRIL UGARTE HERRERA,Institución,,UATx,Oferta oficial: correspondencia exacta e inequívoca dentro de Tlaxcala
+315,I-00172-00314,PER-0310,EDITH TLAPALAMATL RODRIGUEZ,Institución,,UATx,Oferta oficial: correspondencia exacta e inequívoca dentro de Tlaxcala
+316,I-00173-00315,PER-0311,AGUSTIN ALEJANDRO CORTES PERALTA,Institución,,UATx,Oferta oficial: correspondencia exacta e inequívoca dentro de Tlaxcala
+317,I-00174-00316,PER-0312,BERENICE MORALES,Institución,,UATx,Oferta oficial: correspondencia exacta e inequívoca dentro de Tlaxcala
+318,I-00175-00317,PER-0313,ARIANA LIZETH LAVOINET SANCHEZ,Institución,,UATx,Oferta oficial: correspondencia exacta e inequívoca dentro de Tlaxcala
+319,I-00176-00318,PER-0314,ESLY HAZEL HUERTA SANCHEZ,Institución,,UATx,Oferta oficial: correspondencia exacta e inequívoca dentro de Tlaxcala
+320,I-00177-00319,PER-0315,JUAN PABLO GARCIA CHAMA,Institución,,UATx,Oferta oficial: correspondencia exacta e inequívoca dentro de Tlaxcala
+321,I-00178-00320,PER-0316,LESLY YAMILE DIAZ ZEPEDA,Institución,,UATx,Oferta oficial: correspondencia exacta e inequívoca dentro de Tlaxcala
+322,I-00179-00321,PER-0317,MARIA DEL ROSARIO CHAVARRIA LEZAMA,Institución,,UATx,Oferta oficial: correspondencia exacta e inequívoca dentro de Tlaxcala
+323,I-00180-00322,PER-0318,MARIA BELEN ROJAS SANCHEZ,Institución,,UATx,Oferta oficial: correspondencia exacta e inequívoca dentro de Tlaxcala
+324,I-00181-00323,PER-0319,YARA IXCHEL BONILLA MALDONADO,Institución,,UATx,Oferta oficial: correspondencia exacta e inequívoca dentro de Tlaxcala
+326,I-00183-00325,PER-0321,CESAR AUGUSTO VAZQUEZ CORDERO,Institución,,UATx,Oferta oficial: correspondencia exacta e inequívoca dentro de Tlaxcala
+329,I-00185-00328,PER-0324,ESAU RAMIREZ MARTINEZ,Institución,,UATx,Oferta oficial: correspondencia exacta e inequívoca dentro de Tlaxcala
+330,I-00186-00329,PER-0325,JAQUELINE SANCHEZ LOPEZ,Institución,,UATx,Oferta oficial: correspondencia exacta e inequívoca dentro de Tlaxcala
+331,I-00187-00330,PER-0326,HABID LOPEZ MONTES,Institución,,UATx,Oferta oficial: correspondencia exacta e inequívoca dentro de Tlaxcala
+332,I-00188-00331,PER-0327,DANNA STTEPHANY VILLADONGA SANCHEZ,Institución,,UATx,Oferta oficial: correspondencia exacta e inequívoca dentro de Tlaxcala
+333,I-00189-00332,PER-0328,MIGUEL ANGEL GARCIA CANO,Institución,,UATx,Oferta oficial: correspondencia exacta e inequívoca dentro de Tlaxcala
+334,I-00190-00333,PER-0329,EDUARDO GODINEZ CABRERA,Institución,,UATx,Oferta oficial: correspondencia exacta e inequívoca dentro de Tlaxcala
+337,I-00193-00336,PER-0332,XIMENA SANCHEZ MORALES,Institución,,UATx,Oferta oficial: correspondencia exacta e inequívoca dentro de Tlaxcala
+431,I-00285-00430,PER-0425,AYDE MARILI HERNANDEZ MENESES,Institución,,UPTx,Misma persona: única institución conocida y es de Tlaxcala
+464,I-00318-00463,PER-0458,ARLETH ALONSO PEREZ,Institución,,UPTx,Oferta oficial: correspondencia exacta e inequívoca dentro de Tlaxcala
+519,I-00373-00518,PER-0070,LORENA CUATECONTZI BAUTISTA,Institución,,UATx,Misma persona: única institución conocida y es de Tlaxcala
+555,P-00128-00554,PER-0089,RAFAEL SANCHEZ TERAN,Institución,,UVT,Misma persona: única institución conocida y es de Tlaxcala
+560,P-00133-00559,PER-0093,CRISTAL ROJAS RAMIREZ,Institución,,UPTx,Misma persona: única institución conocida y es de Tlaxcala
+565,P-00138-00564,PER-0091,MIRIAM JIMENEZ HERNANDEZ,Institución,,UPTx,Misma persona: única institución conocida y es de Tlaxcala
+568,P-00141-00567,PER-0551,HEIDI CUAHUTLE ROMANO,Institución,,UPTx,Oferta oficial: correspondencia exacta e inequívoca dentro de Tlaxcala
+578,P-00151-00577,PER-0561,CAMILO ZARATE COYOTZI,Institución,,UPTx,Oferta oficial: correspondencia exacta e inequívoca dentro de Tlaxcala
+581,P-00154-00580,PER-0055,MARIA TERESITA CONDE,Institución,,UATx,Misma persona: única institución conocida y es de Tlaxcala
+582,P-00155-00581,PER-0054,KARLA DIAZ GABI,Institución,,UATx,Misma persona: única institución conocida y es de Tlaxcala
+585,I-00374-00584,PER-0060,KELY STEPHANI SOLIS PAZ,Institución,,UPTx,Misma persona: única institución conocida y es de Tlaxcala
+594,I-00383-00593,PER-0141,MOSERRAT JENNIFER CANDIA ORTIZ,Institución,,Instituto Tecnológico de Apizaco,Misma persona: única institución conocida y es de Tlaxcala
+596,I-00385-00595,PER-0576,JORDAN EDUARDO AVEDAÑO BARTOLO,Institución,,UPTx,Oferta oficial: correspondencia exacta e inequívoca dentro de Tlaxcala
+599,I-00388-00598,PER-0578,DIANA LAURA PLATA CAMACHO,Institución,,UPTx,Oferta oficial: correspondencia exacta e inequívoca dentro de Tlaxcala
+606,I-00395-00605,PER-0494,KATHERINE ROJAS DOMINGUEZ,Institución,,UPTREP,Misma persona: única institución conocida y es de Tlaxcala
+608,I-00397-00607,PER-0580,IVETH ZANYAMPA GARUDO,Institución,,UPTx,Oferta oficial: correspondencia exacta e inequívoca dentro de Tlaxcala
+611,I-00400-00610,PER-0582,MARIA JULIANA FLORES RODRIGUEZ,Institución,,UPTx,Oferta oficial: correspondencia exacta e inequívoca dentro de Tlaxcala
+612,I-00401-00611,PER-0583,YOLANDA HERNANDEZ SANCHEZ,Institución,,UPTx,Oferta oficial: correspondencia exacta e inequívoca dentro de Tlaxcala
+613,I-00402-00612,PER-0584,SONIA PAOLA NAVA ACOLTZI,Institución,,UPTx,Oferta oficial: correspondencia exacta e inequívoca dentro de Tlaxcala
+615,I-00404-00614,PER-0586,VIANEY OROS SALADO,Institución,,UPTx,Oferta oficial: correspondencia exacta e inequívoca dentro de Tlaxcala
+620,I-00409-00619,PER-0283,BEATRIZ ELIA LARA ROJAS,carrera,,Empleado,"Misma persona: única carrera conocida, sin conflicto institucional"
+623,I-00412-00622,PER-0286,TERESA CAHUANTZI,carrera,,Empleado,"Misma persona: única carrera conocida, sin conflicto institucional"
+624,I-00413-00623,PER-0287,ALESANDRA MUÑOZ GEORGE,carrera,,Empleado,"Misma persona: única carrera conocida, sin conflicto institucional"
+625,I-00414-00624,PER-0288,MARTINA CAJICO ZARATE,carrera,,Empleado,"Misma persona: única carrera conocida, sin conflicto institucional"
+630,I-00419-00629,PER-0586,VIANEY OROS SALADO,Institución,,UPTx,Oferta oficial: correspondencia exacta e inequívoca dentro de Tlaxcala
+631,I-00420-00630,PER-0583,YOLANDA HERNANDEZ SANCHEZ,Institución,,UPTx,Oferta oficial: correspondencia exacta e inequívoca dentro de Tlaxcala
+635,I-00424-00634,PER-0281,ARACELY SERRANO ANTONIO,carrera,,Administración,"Misma persona: única carrera conocida, sin conflicto institucional"
+638,I-00427-00637,PER-0582,MARIA JULIANA FLORES RODRIGUEZ,Institución,,UPTx,Oferta oficial: correspondencia exacta e inequívoca dentro de Tlaxcala
+639,I-00428-00638,PER-0576,JORDAN EDUARDO AVENDAÑO BARTOLO,Institución,,UPTx,Oferta oficial: correspondencia exacta e inequívoca dentro de Tlaxcala
+640,I-00429-00639,PER-0584,SONIA PAOLA NAVA ACOLTZI,Institución,,UPTx,Oferta oficial: correspondencia exacta e inequívoca dentro de Tlaxcala
+641,I-00430-00640,PER-0580,IVETH ZANJUAMPA GARRIDO,Institución,,UPTx,Oferta oficial: correspondencia exacta e inequívoca dentro de Tlaxcala
+643,I-00432-00642,PER-0594,MAGDIEL IRAN HERNANDEZ XOXOCOTZI,Institución,,UPTx,Oferta oficial: correspondencia exacta e inequívoca dentro de Tlaxcala
+647,I-00436-00646,PER-0307,ALAN JAIR DE JESUS VASQUEZ,Institución,,UPTx,Oferta oficial: correspondencia exacta e inequívoca dentro de Tlaxcala
+652,I-00441-00651,PER-0582,MARIA JULIANA FLORES RODRIGUEZ,Institución,,UPTx,Oferta oficial: correspondencia exacta e inequívoca dentro de Tlaxcala
+653,I-00442-00652,PER-0586,VIANEY OROS SALADO,Institución,,UPTx,Oferta oficial: correspondencia exacta e inequívoca dentro de Tlaxcala
+654,I-00443-00653,PER-0583,YOLANDA HERNANDEZ SANCHEZ,Institución,,UPTx,Oferta oficial: correspondencia exacta e inequívoca dentro de Tlaxcala
+657,I-00446-00656,PER-0604,ISMAEL TEXIS RODRIGUEZ,Institución,,UPTx,Oferta oficial: correspondencia exacta e inequívoca dentro de Tlaxcala
+659,I-00448-00658,PER-0605,KARINA LIZBETH ROJAS HERNANDEZ,Institución,,UPTx,Oferta oficial: correspondencia exacta e inequívoca dentro de Tlaxcala
+660,I-00449-00659,PER-0606,ARIADNA ROMERO SALAZAR,Institución,,UPTx,Oferta oficial: correspondencia exacta e inequívoca dentro de Tlaxcala
+683,I-00472-00682,PER-0622,VANESSA GOMEZ TORRES,Institución,,UPTx,Oferta oficial: correspondencia exacta e inequívoca dentro de Tlaxcala
+684,I-00473-00683,PER-0303,ITZEL BUENAVISTA BUSTAMANTE,Institución,,UPTx,Oferta oficial: correspondencia exacta e inequívoca dentro de Tlaxcala
+690,I-00479-00689,PER-0306,JACQUELINE HERNANDEZ FERNANDEZ,carrera,,Administración,"Misma persona: única carrera conocida, sin conflicto institucional"
